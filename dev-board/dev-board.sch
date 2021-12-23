@@ -1940,7 +1940,7 @@
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="R" urn="urn:adsk.eagle:symbol:16378529/2" library_version="9">
+<symbol name="R" urn="urn:adsk.eagle:symbol:16378529/3" library_version="11">
 <description>RESISTOR</description>
 <wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
@@ -1950,12 +1950,12 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="0" y="2.54" size="1.778" layer="95" align="center">&gt;NAME</text>
 <text x="0" y="-5.08" size="1.778" layer="95" align="center">&gt;SPICEMODEL</text>
-<text x="0" y="-2.54" size="1.778" layer="95" align="center">&gt;VALUE</text>
+<text x="0" y="-2.54" size="1.778" layer="96" align="center">&gt;VALUE</text>
 <text x="0" y="-7.62" size="1.778" layer="95" align="center">&gt;SPICEEXTRA</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="R" urn="urn:adsk.eagle:component:16378570/6" prefix="R" uservalue="yes" library_version="9">
+<deviceset name="R" urn="urn:adsk.eagle:component:16378570/8" prefix="R" uservalue="yes" library_version="11">
 <description>&lt;b&gt;Resistor Fixed - Generic</description>
 <gates>
 <gate name="G$1" symbol="R" x="0" y="0"/>
@@ -5376,7 +5376,6 @@ CONN_03
 <wire x1="-1.397" y1="-3.3528" x2="-1.397" y2="3.3528" width="0.2032" layer="21"/>
 <wire x1="-2.7686" y1="3.3528" x2="-3.0226" y2="3.3528" width="0.254" layer="21" curve="-180"/>
 <wire x1="-3.0226" y1="3.3528" x2="-2.7686" y2="3.3528" width="0.254" layer="21" curve="-180"/>
-<text x="-4.0894" y="4.0132" size="1.27" layer="21" ratio="6" rot="SR0">Designator9</text>
 <wire x1="-3.5306" y1="-0.3556" x2="-1.778" y2="-0.3556" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="-2.6416" x2="-1.778" y2="-2.6416" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="2.6416" x2="-1.778" y2="2.6416" width="0.1524" layer="51"/>
@@ -5397,7 +5396,6 @@ CONN_03
 <wire x1="1.7272" y1="-3.2512" x2="1.7272" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="1.9558" x2="-1.778" y2="1.9558" width="0.1524" layer="51"/>
 <wire x1="1.7272" y1="-1.4986" x2="3.4798" y2="-1.4986" width="0.1524" layer="51"/>
-<text x="-1.0668" y="2.4892" size="1.27" layer="51" ratio="6" rot="SR270">.Designator</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
@@ -5412,7 +5410,6 @@ CONN_03
 <wire x1="-1.2954" y1="-3.3528" x2="-1.2954" y2="3.3528" width="0.2032" layer="21"/>
 <wire x1="-2.8194" y1="3.3528" x2="-3.0734" y2="3.3528" width="0.254" layer="21" curve="-180"/>
 <wire x1="-3.0734" y1="3.3528" x2="-2.8194" y2="3.3528" width="0.254" layer="21" curve="-180"/>
-<text x="-4.5466" y="4.2672" size="1.27" layer="21" ratio="6" rot="SR0">Designator9</text>
 <wire x1="-3.5306" y1="-0.3556" x2="-1.778" y2="-0.3556" width="0.1524" layer="51"/>
 <wire x1="1.7272" y1="-1.4986" x2="3.4798" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="2.6416" x2="-1.778" y2="2.6416" width="0.1524" layer="51"/>
@@ -5433,7 +5430,6 @@ CONN_03
 <wire x1="-1.778" y1="0.3556" x2="-1.778" y2="1.9558" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="-0.3556" x2="-3.5306" y2="0.3556" width="0.1524" layer="51"/>
 <wire x1="-1.778" y1="3.2512" x2="1.7272" y2="3.2512" width="0.1524" layer="51"/>
-<text x="-1.0668" y="2.4892" size="1.27" layer="51" ratio="6" rot="SR270">.Designator</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
@@ -5448,7 +5444,6 @@ CONN_03
 <wire x1="-1.4986" y1="-3.3528" x2="-1.4986" y2="3.3528" width="0.2032" layer="21"/>
 <wire x1="-2.7178" y1="3.302" x2="-2.9718" y2="3.302" width="0.254" layer="21" curve="-180"/>
 <wire x1="-2.9718" y1="3.302" x2="-2.7178" y2="3.302" width="0.254" layer="21" curve="-180"/>
-<text x="-3.7592" y="3.937" size="1.27" layer="21" ratio="6" rot="SR0">Designator9</text>
 <wire x1="-3.5306" y1="-0.3556" x2="-1.778" y2="-0.3556" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="-2.6416" x2="-1.778" y2="-2.6416" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="2.6416" x2="-1.778" y2="2.6416" width="0.1524" layer="51"/>
@@ -5469,7 +5464,6 @@ CONN_03
 <wire x1="1.7272" y1="-3.2512" x2="1.7272" y2="-1.4986" width="0.1524" layer="51"/>
 <wire x1="-3.5306" y1="1.9558" x2="-1.778" y2="1.9558" width="0.1524" layer="51"/>
 <wire x1="1.7272" y1="-1.4986" x2="3.4798" y2="-1.4986" width="0.1524" layer="51"/>
-<text x="-1.0668" y="2.4892" size="1.27" layer="51" ratio="6" rot="SR270">.Designator</text>
 <text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 <text x="-1.7272" y="-0.635" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
 </package>
@@ -6416,7 +6410,7 @@ CONN_03
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
-<part name="U5" library="LM1117IMP-3.3" deviceset="LM1117IMP-3.3/NOPB" device="" value="LM1117IMP-3.3"/>
+<part name="U5" library="LM1117IMP-3.3" deviceset="LM1117IMP-3.3/NOPB" device="" value="Value"/>
 <part name="C12" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" deviceset="C" device="CHIP-0805(2012-METRIC)" package3d_urn="urn:adsk.eagle:package:16290897/2" technology="_" value="10uF"/>
 <part name="JP2" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-2X20" device="" package3d_urn="urn:adsk.eagle:package:22443/2"/>
 <part name="JP1" library="Connector" library_urn="urn:adsk.eagle:library:16378166" deviceset="PINHD-1X4" device="" package3d_urn="urn:adsk.eagle:package:22407/2"/>
