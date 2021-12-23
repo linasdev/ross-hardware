@@ -1459,7 +1459,7 @@ design rules under a new name.</description>
 <attribute name="TYPE" value="" x="-40.005" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VOLTAGE_RATING" value="" x="-40.005" y="31.115" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC2012X110" package3d_urn="urn:adsk.eagle:package:16290897/2" value="100nF" x="5.08" y="47.117" smashed="yes" rot="R180">
+<element name="C7" library="Capacitor" library_urn="urn:adsk.eagle:library:16290819" package="CAPC2012X110" package3d_urn="urn:adsk.eagle:package:16290897/2" value="4.7uF" x="5.08" y="47.117" smashed="yes" rot="R180">
 <attribute name="CATEGORY" value="Capacitor" x="-54.61" y="76.327" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MANUFACTURER" value="" x="-54.61" y="76.327" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="" x="-54.61" y="76.327" size="1.778" layer="27" rot="R180" display="off"/>
