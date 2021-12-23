@@ -213,6 +213,7 @@
 <text x="38.481" y="2.921" size="0.8128" layer="25" rot="R270">IO</text>
 <text x="41.021" y="2.921" size="0.8128" layer="25" rot="R270">CLK</text>
 <text x="43.561" y="2.921" size="0.8128" layer="25" rot="R270">GND</text>
+<text x="16.51" y="59.69" size="0.8128" layer="25">rev2</text>
 </plain>
 <libraries>
 <library name="Capacitor" urn="urn:adsk.eagle:library:16290819">
